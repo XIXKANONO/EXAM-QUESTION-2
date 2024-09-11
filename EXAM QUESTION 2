@@ -1,0 +1,20 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int num;
+
+    std::cout << "Enter Students Marks: ";
+    std::cin >> num;
+
+    if (num < 0) {
+        std::cout << "VALUE ENTERED IS NEGATIVE";
+    } else if (num > 0) {
+        std::cout << "VALUE ENTERED IS POSITIVE";
+    } else {
+        std::cout << "VALUE ENTERED IS ZERO";
+    }
+
+    return 0;
+}
